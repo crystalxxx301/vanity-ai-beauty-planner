@@ -1,0 +1,19 @@
+{
+  "name": "vanity-mvp",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:all": "node scripts/dev.mjs",
+    "preview:local": "npm run build --workspace @vanity/web && node scripts/preview.mjs",
+    "dev": "npm run dev --workspace @vanity/web",
+    "dev:api": "npm run dev --workspace @vanity/api",
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  }
+}

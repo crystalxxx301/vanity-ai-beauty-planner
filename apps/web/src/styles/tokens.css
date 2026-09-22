@@ -1,0 +1,26 @@
+:root {
+  --vanity-color-bg-canvas: #f4f0e9;
+  --vanity-color-bg-surface: #fcfaf7;
+  --vanity-color-bg-subtle: #ddd3c7;
+  --vanity-color-text-primary: #302c29;
+  --vanity-color-text-secondary: #57464f;
+  --vanity-color-text-inverse: #fcfaf7;
+  --vanity-color-action-primary: #57464f;
+  --vanity-color-action-soft: #ddd3c7;
+  --vanity-color-border-subtle: #ddd3c7;
+  --vanity-color-accent-mauve: #b89baa;
+  --vanity-color-accent-sage: #9da89a;
+  --vanity-color-accent-mist: #b8c3c8;
+  --vanity-spacing-xs: 8px;
+  --vanity-spacing-sm: 12px;
+  --vanity-spacing-md: 16px;
+  --vanity-spacing-lg: 24px;
+  --vanity-spacing-xl: 32px;
+  --vanity-radius-sm: 10px;
+  --vanity-radius-md: 18px;
+  --vanity-radius-lg: 24px;
+  --vanity-radius-screen: 36px;
+  --vanity-radius-full: 999px;
+  --vanity-shadow-soft: 0 8px 24px rgba(48, 44, 41, 0.07);
+  --vanity-shadow-float: 0 14px 40px -4px rgba(48, 44, 41, 0.12);
+}
